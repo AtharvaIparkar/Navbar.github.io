@@ -79,7 +79,7 @@
                 currHeading.textContent = currChapterName
                 currElement.parentElement.replaceChild(currHeading,currElement.previousElementSibling)
 
-            }else{
+            } else {
             currElement.textContent = "Done"
             let currChapterName = currElement.previousElementSibling.textContent
             let currInput = document.createElement('input');
@@ -90,7 +90,6 @@
 
             currElement.parentElement.replaceChild(currInput,currElement.previousElementSibling)
             }
-            
         }
     </script>
 </body>
